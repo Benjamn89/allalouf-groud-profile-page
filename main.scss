@@ -1,0 +1,27 @@
+@import "style/navbar/navbar";
+@import "style/header/header";
+@import "style/center/center";
+@import "style/transition/transition";
+@import "style/footer/footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: "Assistant", sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+body,
+html {
+  position: relative;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}

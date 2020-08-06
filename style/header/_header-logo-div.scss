@@ -1,0 +1,13 @@
+.header-logo-div {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  user-select: none;
+  & > img {
+    max-height: 30vw;
+  }
+}

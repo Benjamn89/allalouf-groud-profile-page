@@ -1,0 +1,48 @@
+.center-to-left {
+  animation: centerToLeft 0.9s ease forwards;
+  z-index: -2;
+}
+@keyframes centerToLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.right-to-center {
+  z-index: unset;
+  animation: rightToCenter 0.9s ease forwards;
+}
+@keyframes rightToCenter {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.center-to-right {
+  animation: centerToRight 0.9s ease forwards;
+  z-index: 2;
+}
+@keyframes centerToRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+.left-to-center {
+  animation: leftToCenter 0.9s ease forwards;
+  z-index: unset;
+}
+@keyframes leftToCenter {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

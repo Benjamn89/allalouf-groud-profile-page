@@ -1,0 +1,28 @@
+@import "header-logo-div";
+@import "animation";
+@import "arrow-svg";
+@import "dots";
+
+#header {
+  position: relative;
+  top: 8vh;
+  width: 100%;
+  height: 70vh;
+  max-height: 680px;
+}
+.header-slides {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  user-select: none;
+  & > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.header-first {
+  z-index: 1;
+}

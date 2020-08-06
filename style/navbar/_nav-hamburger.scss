@@ -1,0 +1,36 @@
+.nav-hamburger {
+  height: 35px;
+  width: 35px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #f6be25, rgba(255, 222, 89, 0.808));
+  grid-template-columns: 70%;
+  grid-template-rows: repeat(3, 2px);
+  justify-content: center;
+  align-content: center;
+  grid-gap: 6px;
+  position: relative;
+  cursor: pointer;
+  display: none;
+  & > div {
+    background: #fff;
+    border-radius: 4px;
+    transition: 0.3s ease;
+  }
+}
+
+.div-hamburger-click {
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  top: 48%;
+  left: 15%;
+}
+.div-hamburger-1 {
+  transform: rotate(45deg);
+}
+.div-hamburger-2 {
+  opacity: 0;
+}
+.div-hamburger-3 {
+  transform: rotate(-45deg);
+}
